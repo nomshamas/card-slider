@@ -1,0 +1,91 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  max-width: 18rem;
+  text-align: center;
+  padding: 1rem;
+  border-radius : 4px;
+  box-shadow: 0px 1px 5px 5px lightgray;
+}
+
+.card-header {
+  display: inline-block;
+  position: relative;
+}
+
+.img-container {
+  height: 8.4rem;
+  width: 8.4rem;
+  border-radius: 50%;
+  background-color: darkblue;
+  overflow: hidden;
+  display: flex;
+  align-items: center
+}
+
+.top-badge {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: darkblue;
+  color: white;
+  font-size: 3.5rem;
+  verticle-align: middle;
+}
+
+.user-img {
+  max-height: 8.4rem;
+  width: 8rem;
+  margin-top: 6px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 0% 34%;
+}
+
+.user-name {
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.user-designation {
+  margin-top: 0;
+  text-transform: uppercase;
+  color: darkblue;
+}
+
+.left,
+.right,
+.surprise {
+  border: 1px solid transparent;
+  outline: 0;
+  background: transparent;
+  font-size: 20px;
+  color: darkblue;
+  cursor: pointer;
+}
+
+.surprise {
+  border: 1px solid darkblue;
+  background-color: #d3d3d366;
+  margin-top: .75rem;
+  font-size: 1rem;
+  border-radius: 6px;
+}
+
+.surprise:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+.left:hover,
+.right:hover {
+  border: 1px dotted darkblue;
+}
